@@ -1,0 +1,58 @@
+//Custom full cover grid
+.col-full-6{
+	float: left;
+	width: 50%;
+	.img-responsive{
+		width: 100%;
+	}
+	@media (max-width: $screen-sm-min) {
+  		width: 100%;
+  		float: none;
+  		padding-left: 15px;
+    	padding-right: 15px;
+	}	
+}
+
+// Footer always at bottom
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 240px; /* bottom = footer height */
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 240px;
+    width: 100%;
+}
+// Some my own resets
+.no-list{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.no_margin_top{
+	margin-top: 0;
+}
+
+.icon{
+	display: inline-block;
+}
+//Sprites icons
+.icon-fb{background-image:url('../img/sprite.png');background-position:-123px -32px;width:16px;height:16px}.icon-mail{background-position:-123px -48px;width:15px;height:11px}.icon-mail,.icon-monitor{background-image:url('../img/sprite.png')}.icon-monitor{background-position:0 0;width:63px;height:63px}.icon-phone{background-position:-123px 0;width:16px;height:16px}.icon-phone,.icon-right{background-image:url('../img/sprite.png')}.icon-right{background-position:-60px -63px;width:39px;height:27px}.icon-seo{background-position:-63px 0;height:60px}.icon-seo,.icon-sign{background-image:url('../img/sprite.png');width:60px}.icon-sign{background-position:0 -63px;height:59px}.icon-title{background-position:-60px -105px;width:53px;height:6px}.icon-title,.icon-tw{background-image:url('../img/sprite.png')}.icon-tw{background-position:-99px -63px;width:18px;height:15px}.icon-user{background-position:-123px -16px;width:16px;height:16px}.icon-user,.icon-vk{background-image:url('../img/sprite.png')}.icon-vk{background-position:-60px -90px;width:25px;height:15px}
+
+
+.phone-icon{
+	background: url('../img/white-phone-icon.svg') no-repeat;
+	width: 26px;
+	height: 13px;
+}
+.mail-icon{
+	background: url('../img/white-email-icon.svg') no-repeat;
+	width: 26px;
+	height: 13px;
+}

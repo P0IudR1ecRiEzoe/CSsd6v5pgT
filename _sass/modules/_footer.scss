@@ -1,0 +1,25 @@
+.b_site_footer{
+	padding-top: 2em;
+}
+
+.b_site_footer__copy{
+	margin-top: 25px;
+	border-top: 1px solid $darkgray-lighter;
+	padding-top: 25px;
+	font-size: 12px;
+}
+
+.social_links__item{
+	float: left;
+	margin-right: 0.6em;
+}
+
+.footer_links__item{
+	margin-top: 0.6em;
+	a{
+		color: $maindark;
+		&:hover{
+			color: $darkgray-lighter;
+		}
+	}
+}

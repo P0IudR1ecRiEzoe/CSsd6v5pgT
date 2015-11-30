@@ -1,0 +1,175 @@
+.b_site_header{
+	padding-top: 2em;
+}
+
+.navblock__info_shell{
+	margin-bottom: 40px;
+	@extend .row;
+}
+
+.info_shell__subnav{
+	@extend .col-sm-7;
+}
+
+.subnavigation__item{
+	float: left;
+	margin-right: 2.1em;
+	margin-top: 7px;
+	a{
+		color: $darkgray;
+		&:hover{
+			color: $darkgray-lighter;
+		}
+	}
+}
+
+.info_shell__contact_phone{
+	@extend .col-sm-5;
+}
+
+.subnavigation{
+	@extend .no-list;
+}
+
+.contact_phone__connect_us{
+	@extend .no-list;
+	li{
+		float: left;
+		margin-right: 0.5em;
+		&:last-child{
+			padding-left: 7px;
+			margin-top: 5px;
+			border-left: 1px solid $darkgray;
+		}
+	}
+}
+
+.contact_phone__number{
+	font-size: 22px;
+}
+
+.main_nav{
+	@extend .no-list;
+	.main_nav__item{
+		float: left;
+		margin-right: 23px;
+		a{
+			font-family: $proximabold;
+			font-size: 16px;
+			color: $maindark;
+			text-transform: uppercase;
+			&:hover{
+				text-decoration: none;
+				border-bottom: 2px solid $blue;
+				color: $blue;
+			}
+		}
+	}
+}
+
+// Mobile navigation
+
+/*styling open close button*/
+.btn-open{
+	width: 60px;
+	height: 60px;
+}
+
+.btn-close{
+	width: 35px;
+	height: 35px;
+	position: fixed !important;	
+}
+
+.button img{
+ display: inline;
+ position: absolute;
+ right: 20px;
+ top: 50px;
+ z-index: 999;
+}
+
+/*overlay*/
+.overlay{
+    display: none;
+ position: fixed;
+ top: 0;
+ height: 100%;
+ width: 100%;
+ background: $blue;
+ overflow: auto;
+}
+.wrap{
+ color: #fff;
+ max-width: 1100px;
+ margin: 0 auto;
+}
+.wrap ul.wrap-nav{
+ padding: 150px 0px 100px;
+}
+.wrap ul.wrap-nav > li{
+ font-size: 22px;
+ display: inline-block;
+ vertical-align: top;
+ width: 24%;
+ position: relative; 
+}
+.wrap ul.wrap-nav > li a{
+ color: #FFF;
+ display: block;
+ padding: 8px 0;
+ text-decoration: none;
+}
+.wrap ul.wrap-nav ul{
+ padding: 20px 0;
+}
+.wrap ul.wrap-nav ul li{
+ display: block;
+ font-size: 16px;
+ width: 100%;
+ color: #FFF;
+}
+.wrap ul.wrap-nav ul li a{
+ color: #FFF;
+ &:hover:focus{
+ 	color: rgba(25, 71, 114, 0.7);
+ }
+}
+.social{
+ color: #c1c1c1;
+ font-size: 16px;
+ padding: 20px;
+}
+
+.mobile_nav_subtitle{
+	color: rgba(25, 71, 114, 0.7);
+}
+
+.connect_from_mobile{
+	li{
+		&:first-child{
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@media screen and (max-width: 48em) {
+ .wrap ul.wrap-nav > li{
+ width: 100%;
+ padding: 20px 0;
+ border-bottom: 1px solid rgba(25, 71, 114, 0.2);
+ &:last-child{
+ 	border-bottom: none;
+ }
+ }
+ .wrap ul.wrap-nav{
+ padding: 30px 50px 0px;
+ }
+ nav ul{
+ opacity: 0;
+ visibility: hidden;
+ }
+ .button{
+ top: 0;
+}
+}
