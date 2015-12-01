@@ -1,7 +1,6 @@
 ---
 layout: clean
 title:  "Создание корпоративного сайта"
-permalink: web-development/corporate-site
 breadcrumb: Создание корпоративного сайта
 ---
 <div class="maxcnt comet__bg">
