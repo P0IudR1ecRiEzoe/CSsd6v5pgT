@@ -6,7 +6,7 @@ breadcrumb: Создание сайтов
 <div class="maxcnt-single corporate_bg text-center">
 	<div class="container">
 			<div class="service_box col-md-8 col-md-offset-2">
-				<h2><a href="{{site.baseurl}}/web-development/corporate-site.html" class="service_box__service_link">Создание корпоративного сайта</a></h2>
+				<h2><a href="{{site.baseurl}}/web-development/corporate-site" class="service_box__service_link">Создание корпоративного сайта</a></h2>
 				<p class="service_box__service_desc">Корпоративный сайт - это полноценное представительство вашего бизнеса в сети, главная цель которого обеспечить первичный контакт с клиентом. Это достигается путем построения грамотной структуры сайта, высоким качеством наполненной информацией, презентабельного и современного дизайна страниц и веб-элементов, быстрой скоростью работы с использованием современных технологий разработки, а также интегрированный с CRM-системами.</p>
 				<p><a href="{{site.baseurl}}/web-development/corporate-site" class="btn btn-default white">Подробнее об услуге</a></p>
 			</div>		
