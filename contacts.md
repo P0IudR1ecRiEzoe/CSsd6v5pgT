@@ -18,18 +18,19 @@ breadcrumb: Контактная информация
 			<li><strong>Почтовый индекс</strong>: 195220</li>
 			<li><strong>ИНН</strong>: 780254540056</li>
 		</ul>
-		<form>
+		<form action="//formspree.io/89110012340@yandex.com" method="POST">
 		  <div class="form-group">
 		    <label for="exampleInputEmail1">Введите Ваше имя</label>
-		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+		    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" name="name">
 		  </div>		  
 		  <div class="form-group">
 		    <label for="exampleInputEmail1">Введите Ваш email</label>
-		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="_replyto">
 		  </div>		  
 		  <div class="form-group">
 	  			<textarea class="form-control" rows="5" id="comment"></textarea>
 		  </div>
+		  <input type="submit" value="Send">
 		  <button type="submit" class="btn btn-primary">Отправить</button>
 		</form>
 	</div>
