@@ -33,7 +33,7 @@ breadcrumb: Контактная информация
 		  <div class="form-group">
 	  			<textarea class="form-control" rows="5" id="comment"></textarea>
 		  </div>
-		  <button type="submit" class="btn btn-primary">Отправить</button>
+		  <button type="submit" class="btn btn-primary">Send</button>
 		</form>
 	</div>
 	<div class="col-md-6">
