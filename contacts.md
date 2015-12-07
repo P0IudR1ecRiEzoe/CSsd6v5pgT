@@ -23,8 +23,9 @@ breadcrumb: Контактная информация
 		    <label for="exampleInputEmail1">Введите Ваше имя</label>
 		    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" name="name">
 		  </div>
-		  <input type="hidden" name="_next" value="//vk.com/karzuan" />
+		  <input type="hidden" name="_next" value="//ya.ru" />
 		  <input type="hidden" name="_subject" value="Заявочка с 9project.org/contacts!" />
+		  <input type="hidden" name="_cc" value="3686070@gmail.com" />
 		  <div class="form-group">
 		    <label for="exampleInputEmail1">Введите Ваш email</label>
 		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="_replyto">
