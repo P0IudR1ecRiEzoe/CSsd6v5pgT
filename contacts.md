@@ -17,8 +17,8 @@ breadcrumb: Контактная информация
 			<li><strong>Адрес офиса</strong>: г.Санкт-Петербург, пр.Непокоренных 49А, оф.№812</li>
 			<li><strong>Почтовый индекс</strong>: 195220</li>
 			<li><strong>ИНН</strong>: 780254540056</li>
-		</ul> <!-- token: 33b19425-15b6-44d9-befc-669e83b131cai !-->
-		<form action="https://fwdform.herokuapp.com/user/33b19425-15b6-44d9-befc-669e83b131cai" method="post">
+		</ul> <!-- token: 33b19425-15b6-44d9-befc-669e83b131ca !-->
+		<form action="https://fwdform.herokuapp.com/user/33b19425-15b6-44d9-befc-669e83b131ca" method="post">
 		  <div class="form-group">
 		    <label for="exampleInputEmail1">Введите Ваше имя</label>
 		    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" name="name">
