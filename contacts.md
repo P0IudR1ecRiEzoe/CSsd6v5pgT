@@ -17,22 +17,18 @@ breadcrumb: Контактная информация
 			<li><strong>Адрес офиса</strong>: г.Санкт-Петербург, пр.Непокоренных 49А, оф.№812</li>
 			<li><strong>Почтовый индекс</strong>: 195220</li>
 			<li><strong>ИНН</strong>: 780254540056</li>
-		</ul>
-		<form action="//formspree.io/kutskonstantin@yandex.com" method="POST">
+		</ul> <!-- token: 33b19425-15b6-44d9-befc-669e83b131cai !-->
+		<form action="https://fwdform.herokuapp.com/user/33b19425-15b6-44d9-befc-669e83b131cai" method="post">
 		  <div class="form-group">
 		    <label for="exampleInputEmail1">Введите Ваше имя</label>
 		    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" name="name">
 		  </div>
-		  <input type="hidden" name="_next" value="//9project.org/" /> <!-- this is сan be thank you page !-->
-		  <input type="hidden" name="_subject" value="Заявочка с 9project.org/contacts!" />
-		  <input type="hidden" name="_cc" value="hello@9project.org" /> <!-- additional mail addreces !-->
-		  <input type="hidden" name="_cc" value="3686070@gmail.com" />
 		  <div class="form-group">
-		    <label for="exampleInputEmail1">Введите Ваш email</label>
-		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="_replyto">
-		  </div>		  
+		  	<label for="exampleInputEmail1">Введите Ваш email</label>
+		  	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="email">
+		 </div>		  
 		  <div class="form-group">
-	  			<textarea class="form-control" rows="5" id="comment"></textarea>
+	  			<textarea class="form-control" name="message" rows="5" id="comment"></textarea>
 		  </div>
 		  <button type="submit" class="btn btn-primary">Отправить</button>
 		</form>
