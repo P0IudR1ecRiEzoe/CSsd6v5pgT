@@ -18,7 +18,7 @@ breadcrumb: Контактная информация
 			<li><strong>Почтовый индекс</strong>: 195220</li>
 			<li><strong>ИНН</strong>: 780254540056</li>
 		</ul>
-		<form action="action="//formspree.io/kutskonstantin@yandex.com"" method="POST">
+		<form action="//formspree.io/kutskonstantin@yandex.com" method="POST">
 		  <div class="form-group">
 		    <label for="exampleInputEmail1">Введите Ваше имя</label>
 		    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" name="name">
