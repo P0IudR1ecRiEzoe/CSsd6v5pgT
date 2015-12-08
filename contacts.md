@@ -25,11 +25,12 @@ breadcrumb: Контактная информация
 		  </div>
 		  <div class="form-group">
 		  	<label for="exampleInputEmail1">Введите Ваш email</label>
-		  	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="email">
+		  	<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Email" name="email">
 		 </div>		  
 		  <div class="form-group">
 	  			<textarea class="form-control" name="message" rows="5" id="comment"></textarea>
 		  </div>
+		  <input type="submit" value="Send Message">
 		  <button type="submit" class="btn btn-primary">Отправить</button>
 		</form>
 	</div>
