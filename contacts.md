@@ -26,7 +26,9 @@ breadcrumb: Контактная информация
 		  <div class="form-group">
 		  	<label for="exampleInputEmail1">Введите Ваш email</label>
 		  	<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Email" name="_replyto">
-		 </div>		  
+		 </div>	
+		 <input type="hidden" name="_next" value="//9project/thanks" />
+		 <input type="hidden" name="_cc" value="hello@9project.org, 3686070@gmail.com" />
 		  <div class="form-group">
 	  			<textarea class="form-control" name="message" rows="5" id="comment"></textarea>
 		  </div>
