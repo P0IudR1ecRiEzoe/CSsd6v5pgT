@@ -29,7 +29,7 @@ breadcrumb: Контактная информация
 		 </div>	
 		 <input type="hidden" name="_next" value="//9project.org/thanks" /> <!-- redirect after send !-->
 		 <input type="hidden" name="_cc" value="3686070@gmail.com" /> <!-- additional email !-->
-		 <input type="hidden" name="_cc" value="hello0@9project.com" /> <!-- additional email !-->
+		 <!-- <input type="hidden" name="_cc" value="hello0@9project.com" /> additional email !-->
 		  <div class="form-group">
 	  			<textarea class="form-control" name="message" rows="5" id="comment"></textarea>
 		  </div>
