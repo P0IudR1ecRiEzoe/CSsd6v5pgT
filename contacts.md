@@ -17,15 +17,15 @@ breadcrumb: Контактная информация
 			<li><strong>Адрес офиса</strong>: г.Санкт-Петербург, пр.Непокоренных 49А, оф.№812</li>
 			<li><strong>Почтовый индекс</strong>: 195220</li>
 			<li><strong>ИНН</strong>: 780254540056</li>
-		</ul> <!-- token: 33b19425-15b6-44d9-befc-669e83b131ca !-->
-		<form action="https://fwdform.herokuapp.com/user/33b19425-15b6-44d9-befc-669e83b131ca" method="post">
+		</ul>
+		<form action="action="//formspree.io/kutskonstantin@yandex.com"" method="POST">
 		  <div class="form-group">
 		    <label for="exampleInputEmail1">Введите Ваше имя</label>
 		    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" name="name">
 		  </div>
 		  <div class="form-group">
 		  	<label for="exampleInputEmail1">Введите Ваш email</label>
-		  	<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Email" name="email">
+		  	<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Email" name="_replyto">
 		 </div>		  
 		  <div class="form-group">
 	  			<textarea class="form-control" name="message" rows="5" id="comment"></textarea>
