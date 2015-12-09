@@ -18,7 +18,7 @@ breadcrumb: Контактная информация
 			<li><strong>Почтовый индекс</strong>: 195220</li>
 			<li><strong>ИНН</strong>: 780254540056</li>
 		</ul>
-		<form action="//formspree.io/kutskonstantin@yandex.com" method="POST"> <!-- action dont change!!! !-->
+		<form action="//formspree.io/hello0@9project.com" method="POST"> <!-- action dont change!!! !-->
 		  <div class="form-group">
 		    <label for="exampleInputEmail1">Введите Ваше имя</label>
 		    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" name="name">
@@ -28,8 +28,8 @@ breadcrumb: Контактная информация
 		  	<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Email" name="_replyto">
 		 </div>	
 		 <input type="hidden" name="_next" value="//9project.org/thanks" /> <!-- redirect after send !-->
-		 <input type="hidden" name="_cc" value="3686070@gmail.com" /> <!-- additional email !-->
-		 <!-- <input type="hidden" name="_cc" value="hello0@9project.com" /> additional email !-->
+		 <input type="hidden" name="_subject" value="Заявка с контактной формы 9project.org/contacts!" />
+		 <input type="hidden" name="_cc" value="kutskonstantin@yandex.com" /> <!-- additional email !-->
 		  <div class="form-group">
 	  			<textarea class="form-control" name="message" rows="5" id="comment"></textarea>
 		  </div>
